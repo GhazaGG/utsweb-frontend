@@ -1,0 +1,35 @@
+/* customDatePicker.css */
+/* Customize react-datepicker to match Bulma style */
+
+/* Set width of input to 100% */
+.react-datepicker-wrapper input[type="text"] {
+    width: 100%;
+}
+
+/* Adjust the border color */
+.react-datepicker__input-container input[type="text"] {
+    border-color: #dbdbdb;
+}
+
+/* Adjust the border radius */
+.react-datepicker__input-container input[type="text"],
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+    border-radius: 4px;
+}
+
+/* Adjust the background color */
+.react-datepicker__input-container input[type="text"] {
+    background-color: #fff;
+}
+
+/* Adjust the hover color */
+.react-datepicker__day:hover {
+    background-color: #f5f5f5;
+}
+
+/* Adjust the selected color */
+.react-datepicker__day--selected {
+    background-color: #3273dc;
+    color: #fff;
+}
