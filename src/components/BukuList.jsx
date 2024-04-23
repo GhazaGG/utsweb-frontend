@@ -80,8 +80,8 @@ const BukuList = () => {
                             <td>
                                 {loggedIn && ( 
                                     <>
-                                        <Link to ={`edit/${buku.id}`} className='button is-small is-info'>Edit</Link>
-                                        <button onClick={() => deletebuku(buku.id)} className="button is-small is-danger mt-1">
+                                        <Link to ={`edit/${buku._id}`} className='button is-small is-info'>Edit</Link>
+                                        <button onClick={() => deletebuku(buku._id)} className="button is-small is-danger mt-1">
                                         Hapus
                                         </button>
                                     </>
